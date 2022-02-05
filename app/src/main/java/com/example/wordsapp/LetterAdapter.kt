@@ -32,13 +32,13 @@ class LetterAdapter :
     RecyclerView.Adapter<LetterAdapter.LetterViewHolder>() {
 
     // Generates a [CharRange] from 'A' to 'Z' and converts it to a list
-    private val list = ('A').rangeTo('Z').toList()
+    private val list = listOf("Pera", "Manzana", "Banana", "Uvas", "Melon" )
 
     /**
      * Provides a reference for the views needed to display items in your list.
      */
     class LetterViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val button = view.findViewById<Button>(R.id.button_item)
+        val button = view.findViewById<Button>(R.id.button_item_01)
     }
 
     override fun getItemCount(): Int {
