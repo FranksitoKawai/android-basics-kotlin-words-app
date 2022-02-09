@@ -16,21 +16,16 @@
 package com.example.wordsapp
 
 import android.content.Context
-import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.accessibility.AccessibilityNodeInfo
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
-import android.graphics.BitmapFactory
 import com.squareup.picasso.Picasso
-import java.net.URL
 
 
 /**
@@ -65,7 +60,7 @@ class WordAdapter(private val letterId: String, context: Context) :
 
     class WordViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         val TextDescription = view.findViewById<TextView>(R.id.descripcion)
-        val TextName = view.findViewById<TextView>(R.id.nombre_seleccionado)
+        val TextName = view.findViewById<TextView>(R.id.nombre)
         val TextAtributos = view.findViewById<TextView>(R.id.vitaminas)
         val ImageViewUrl = view.findViewById<ImageView>(R.id.imageView)
     }
