@@ -61,7 +61,7 @@ class WordAdapter(private val letterId: String, context: Context) :
     class WordViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
         val TextDescription = view.findViewById<TextView>(R.id.descripcion)
         val TextName = view.findViewById<TextView>(R.id.nombre)
-        val TextAtributos = view.findViewById<TextView>(R.id.vitaminas)
+
         val ImageViewUrl = view.findViewById<ImageView>(R.id.imageView)
     }
 
@@ -93,7 +93,7 @@ class WordAdapter(private val letterId: String, context: Context) :
         // Set the text of the WordViewHolder
         holder.TextName.text = item.nombre
         holder.TextDescription.text = item.descripcion
-        holder.TextAtributos.text = item.virtudes
+
 
         Picasso.get().load(item.image).into(holder.ImageViewUrl)
 

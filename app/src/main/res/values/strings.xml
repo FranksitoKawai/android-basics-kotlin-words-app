@@ -15,10 +15,10 @@
      limitations under the License.
 -->
 <resources>
-    <string name="app_name">Frutas</string>
-    <string name="detail_prefix">Mostrando </string>
+    <string name="app_name">Reino animal</string>
+    <string name="detail_prefix">Animales</string>
     <string name="action_switch_layout">Switch Layout</string>
     <string name="look_up_word">Look up word in a Browser Search</string>
     <string name="look_up_words">Show Stored Words</string>
-    <string name="word_list_fragment_label">Mostrando todo sobre {letter}</string>
+    <string name="word_list_fragment_label">Mostrando informacion sobre animales</string>
 </resources>
