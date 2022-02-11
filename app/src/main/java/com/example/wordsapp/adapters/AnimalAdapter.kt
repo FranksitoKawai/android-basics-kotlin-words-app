@@ -60,8 +60,6 @@ class AnimalAdapter(private val idTipoAnimal: String, context: Context)
             val intent = Intent(Intent.ACTION_VIEW, queryUrl)
             context.startActivity(intent)
         }
-
-
     }
 
     override fun getItemCount(): Int {

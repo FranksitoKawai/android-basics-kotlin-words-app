@@ -92,7 +92,7 @@ class LetterListFragment : Fragment() {
         if (isLinearLayoutManager) {
             recyclerView.layoutManager = LinearLayoutManager(context)
         } else {
-            recyclerView.layoutManager = GridLayoutManager(context, 4)
+            recyclerView.layoutManager = GridLayoutManager(context, 2)
         }
         recyclerView.adapter = TipoAnimalAdapter()
     }
